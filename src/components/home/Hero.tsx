@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import SearchInput from '../ui/SearchInput';
 import { Link } from 'react-router-dom';
@@ -387,7 +386,7 @@ const Hero: React.FC = () => {
               placeholder={
                 activeTab === 'url' 
                   ? "Enter website URL, domain, or IP address" 
-                  : "Enter email address or paste email content to analyze"
+                  : "paste email content to analyze"
               }
               onSearch={handleSearch}
               buttonColor="#00C48C"
